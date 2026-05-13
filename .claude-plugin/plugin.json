@@ -1,0 +1,71 @@
+{
+  "name": "syntari-nexus",
+  "version": "1.0.0",
+  "description": "Investment intelligence — PE deals, CRE underwriting, credit analysis, LP management, and financial modeling with AGI-grade confidence calibration and adversarial debate",
+  "author": {
+    "name": "Syntari International",
+    "url": "https://syntari-ai.com"
+  },
+  "homepage": "https://github.com/Syntari-International-Inc/syntari-nexus-plugin",
+  "repository": "https://github.com/Syntari-International-Inc/syntari-nexus-plugin",
+  "category": "finance",
+  "license": "MIT",
+  "keywords": [
+    "investment",
+    "cre",
+    "private-equity",
+    "credit",
+    "underwriting",
+    "financial-modeling",
+    "agi",
+    "deal-screening",
+    "portfolio-analytics",
+    "talent",
+    "linkedin",
+    "leaddelta",
+    "warm-intro",
+    "relationship-intelligence",
+    "network"
+  ],
+  "commands": [
+    { "name": "nexus-debate",      "file": "commands/nexus-debate.md" },
+    { "name": "nexus-model",       "file": "commands/nexus-model.md" },
+    { "name": "nexus-network",     "file": "commands/nexus-network.md" },
+    { "name": "nexus-quick-cut",   "file": "commands/nexus-quick-cut.md" },
+    { "name": "nexus-research",    "file": "commands/nexus-research.md" },
+    { "name": "nexus-screen",      "file": "commands/nexus-screen.md" },
+    { "name": "nexus-talent",      "file": "commands/nexus-talent.md" },
+    { "name": "nexus-underwrite",  "file": "commands/nexus-underwrite.md" }
+  ],
+  "agents": [
+    { "name": "cre-team",             "file": "agents/cre-team.md" },
+    { "name": "credit-team",          "file": "agents/credit-team.md" },
+    { "name": "deal-team",            "file": "agents/deal-team.md" },
+    { "name": "debate-team",          "file": "agents/debate-team.md" },
+    { "name": "relationship-graph",   "file": "agents/relationship-graph.md" },
+    { "name": "talent-intelligence",  "file": "agents/talent-intelligence.md" }
+  ],
+  "skills": [
+    { "name": "adversarial-debate",           "file": "skills/adversarial-debate/SKILL.md" },
+    { "name": "competitive-analysis",         "file": "skills/competitive-analysis/SKILL.md" },
+    { "name": "confidence-calibration",       "file": "skills/confidence-calibration/SKILL.md" },
+    { "name": "cre-underwriter",              "file": "skills/cre-underwriter/SKILL.md" },
+    { "name": "credit-market-scanner",        "file": "skills/credit-market-scanner/SKILL.md" },
+    { "name": "deal-memo-writer",             "file": "skills/deal-memo-writer/SKILL.md" },
+    { "name": "deal-screener",                "file": "skills/deal-screener/SKILL.md" },
+    { "name": "financial-modeling",           "file": "skills/financial-modeling/SKILL.md" },
+    { "name": "fund-benchmarker",             "file": "skills/fund-benchmarker/SKILL.md" },
+    { "name": "leaddelta-intelligence",       "file": "skills/leaddelta-intelligence/SKILL.md" },
+    { "name": "om-parser",                    "file": "skills/om-parser/SKILL.md" },
+    { "name": "portfolio-analyzer",           "file": "skills/portfolio-analyzer/SKILL.md" },
+    { "name": "quick-cut",                    "file": "skills/quick-cut/SKILL.md" },
+    { "name": "consulting-assessment",        "file": "skills/consulting/assessment/SKILL.md" },
+    { "name": "consulting-due-diligence",     "file": "skills/consulting/due-diligence/SKILL.md" },
+    { "name": "consulting-exit-tax",          "file": "skills/consulting/exit-tax/SKILL.md" },
+    { "name": "consulting-scpr-framework",    "file": "skills/consulting/scpr-framework/SKILL.md" },
+    { "name": "consulting-strategy",          "file": "skills/consulting/strategy/SKILL.md" },
+    { "name": "consulting-transformation",    "file": "skills/consulting/transformation/SKILL.md" },
+    { "name": "consulting-value-creation",    "file": "skills/consulting/value-creation/SKILL.md" }
+  ],
+  "dependencies": ["financial-analysis"]
+}

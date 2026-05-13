@@ -1,0 +1,23 @@
+{
+  "SessionStart": [
+    {
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Nexus Investment Intelligence plugin is active. Available commands: /nexus-quick-cut (credit memo), /nexus-underwrite (CRE), /nexus-screen (deal scoring), /nexus-model (financial models), /nexus-research (market intel), /nexus-debate (adversarial thesis debate). Type / to see all commands."
+        }
+      ]
+    }
+  ],
+  "SubagentStop": [
+    {
+      "matcher": "deal-team|cre-team|credit-team|debate-team",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Agent analysis complete. Ensure output includes: (1) confidence calibration score, (2) data gaps identified, (3) key risks highlighted. If the analysis was a deal evaluation, suggest running /nexus-debate for adversarial stress-testing."
+        }
+      ]
+    }
+  ]
+}

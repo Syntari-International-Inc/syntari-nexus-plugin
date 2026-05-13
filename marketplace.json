@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "syntari-nexus",
+  "description": "AGI-powered investment intelligence — PE deals, CRE underwriting, credit analysis, LP management, and financial modeling with confidence calibration and adversarial debate",
+  "owner": {
+    "name": "Syntari International",
+    "email": "rafi@syntari-ai.com"
+  },
+  "plugins": [
+    {
+      "name": "syntari-nexus",
+      "description": "Investment intelligence with 20 skills, 8 commands, 6 agent teams, and a remote MCP server for live platform data. AGI capabilities: SteerConf confidence calibration, FREE-MAD adversarial debate, self-improving feedback loop.",
+      "version": "1.0.0",
+      "source": ".",
+      "category": "finance",
+      "author": {
+        "name": "Syntari International"
+      }
+    }
+  ]
+}

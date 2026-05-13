@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nexus": {
+      "type": "url",
+      "url": "https://nexus.syntari-ai.com/api/mcp",
+      "name": "nexus"
+    }
+  }
+}
